@@ -11,8 +11,7 @@ let arrResult = []
 
 for (let i = 0; i < names.length; i++) {
     result = names[i];
-    arrResult.push(result[0])
-    
+    arrResult.push(result[0]);
 }
     return arrResult;
 } 

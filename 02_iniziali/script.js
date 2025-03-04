@@ -22,7 +22,7 @@ for (let i = 0; i < names.length; i++) {
 
 
 // Invoca la funzione qui e stampa il risultato in console
-console.log(firstLetter());
+console.log(firstLetter(names));
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]

@@ -9,7 +9,7 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-function saluto(nome) {
+const saluto = (nome) => {
    
     const ora = new Date().getHours();
   

@@ -22,6 +22,7 @@ for (let i = 0; i < myList.length; i++) {
 
 
 // Invoca la funzione qui e stampa il risultato in console
+firstLetter(names);
 console.log(firstLetter(names));
 
 

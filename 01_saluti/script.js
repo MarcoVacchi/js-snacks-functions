@@ -11,18 +11,19 @@ const userName = 'Mario';
     return saluto;
 } 
 
+
 /*
     function myFunct (saluto) { 
     saluto = `ciao ${userName}`
     return saluto;
-} /*
+} */
 
 // dichiaro la mia funzione che verificherà che venga inserita una stringa, e restituisca un saluto
 
 
 // Invoca la funzione qui e stampa il risultato in console
-
+myFunct(userName);
 console.log(myFunct(userName));
 
 
-//Risultato atteso se si passa 'Mario': // ciao Mario
+//Risultato atteso se si passa 'Mario': // ciao Mario;

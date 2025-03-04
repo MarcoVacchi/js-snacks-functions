@@ -5,12 +5,12 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
-const firstLetter = () => {
+const firstLetter = (myList) => {
 
 let arrResult = []
 
-for (let i = 0; i < names.length; i++) {
-    result = names[i];
+for (let i = 0; i < myList.length; i++) {
+    result = myList[i];
     arrResult.push(result[0]);
 }
     return arrResult;
